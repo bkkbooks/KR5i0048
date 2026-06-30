@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR5i0048/CK-KZ/v1
+canonical_location: https://kanripo.org/bkk/KR5i0048/CK-KZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 五經合編
+  date: '2015-08-29 17:52:48.345610'
+  source:
+    repository: kanripo
+    path: KR5i0048
+  image_base_urls:
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+  edition:
+    short: CK-KZ
+    label: 【重刊道藏輯要】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 1, filename: KR5i0048_001-CK-KZ.yaml, hash: 'sha256:4c1d3718d19c2c3ff3bc62675b249ee51763b3ba7ffd008cfd907f975cfcc00a'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5i0048_001-CK-KZ.markers.yaml, hash: 'sha256:c17bd1df47cb30b5a8608fd3de1be034366124c3f73f8d95f868c997a4944482'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: CK-KZ_KR5i0048_01p001a
+    span:
+    - body
+    - 0
+    - 18991
+  label: juan 001
+  type: section
+  level: 1
+hash: sha256:03a9e9bbe4d4ead25c3703975c206d5f1ca2bbb5f1a86b85920a30a97864cd61
